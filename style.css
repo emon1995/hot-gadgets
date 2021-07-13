@@ -1,3 +1,60 @@
 .navbar {
   background-color: white;
 }
+.container {
+  margin-bottom: 20px;
+}
+.black-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+.carousel-item {
+  padding: 20px 40px;
+}
+.detials-bg {
+  background-image: url(./images/bg-2.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.img-bg {
+  background-image: url(./images/bg-1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.orange-btn {
+  background-color: orange;
+}
+.head {
+  display: flex;
+  float: left;
+}
+
+.categories img {
+  width: 60%;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer {
+  border-top: none;
+  background-color: white;
+}
+p {
+  color: gray;
+}
+.card-body {
+  text-align: center;
+}
+
+.card-footer {
+  text-align: center;
+}
